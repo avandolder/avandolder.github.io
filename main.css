@@ -1,15 +1,16 @@
 body {
-	background-color: #bbccee;
-	color: #ffffff;
-	font-family: sans-serif;
-	text-align: center;
+    color: #333;
+    font-family: Georgia, serif;
+    max-width: 70ch;
+    margin: auto;
+    padding: 2ch;
 }
 
-h1 {
-	font-size: 26pt;
+/*h1 {
+    font-size: 26pt;
 }
 
 #links a {
-	color: #77eeff;
-	text-decoration: underline;
-}
+    text-decoration: underline;
+}*/
+
