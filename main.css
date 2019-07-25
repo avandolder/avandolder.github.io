@@ -26,12 +26,14 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
     background-color: lightblue;
 }
 
 nav li {
     display: inline;
     text-align: center;
+    float: left;
 }
 
 nav a {
@@ -43,6 +45,10 @@ nav a {
 
 nav a:hover {
     background-color: #e6baac;
+}
+
+a#current-page {
+    background-color: #9cc2cf;
 }
 
 footer {
