@@ -1,16 +1,50 @@
+html {
+    background-color: #eee;
+}
+
 body {
     color: #333;
+    background-color: #fff;
     font-family: Georgia, serif;
     max-width: 70ch;
     margin: auto;
     padding: 2ch;
+    box-shadow: -1px 0 10px grey, 1px 0 10px grey, 0 1px 10px grey;
 }
 
-/*h1 {
-    font-size: 26pt;
+header {
+    text-align: center;
 }
 
-#links a {
-    text-decoration: underline;
-}*/
+nav {
+    margin-left: -2ch;
+    margin-right: -2ch;
+}
 
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 5px;
+    color: inherit;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #e6baac;
+}
+
+footer {
+    font-size: x-small;
+}

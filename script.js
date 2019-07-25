@@ -1,11 +1,12 @@
 "use strict";
 
 (function(){
-    const footerElement = document.getElementById("footer");
-    const lastModifiedElement = document.createElement("small");
+    const footerElement = document.getElementById("main-footer");
+    const spacer = document.createElement("br");
     const lastModified = new Date(document.lastModified);
-    const lastModifiedText = document.createTextNode(
-            "Last Modified: " + lastModified.toString());
-    lastModifiedElement.appendChild(lastModifiedText);
-    footerElement.appendChild(lastModifiedElement);
+    const lastModifiedText =
+        document.createTextNode("Last Modified: " + lastModified.toString());
+
+    footerElement.appendChild(spacer);
+    footerElement.appendChild(lastModifiedText);
 }());
