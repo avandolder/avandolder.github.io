@@ -8,17 +8,20 @@ body {
     font-family: Georgia, serif;
     max-width: 70ch;
     margin: auto;
-    padding: 2ch;
     box-shadow: -1px 0 10px grey, 1px 0 10px grey, 0 1px 10px grey;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     text-align: center;
+    padding: 2ch;
 }
 
-nav {
-    margin-left: -2ch;
-    margin-right: -2ch;
+header h1 {
+    padding: 0;
+    margin: 0;
 }
 
 nav ul {
@@ -28,10 +31,10 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: lightblue;
+    display: flex;
 }
 
 nav li {
-    display: inline;
     text-align: center;
     float: left;
 }
@@ -51,6 +54,13 @@ a#current-page {
     background-color: #9cc2cf;
 }
 
-footer {
+main {
+    padding: 0 1ch;
+    flex-grow: 1;
+}
+
+#main-footer {
     font-size: x-small;
+    padding: 0 1ch;
+    height: 100%;
 }
