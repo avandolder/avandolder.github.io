@@ -6,7 +6,7 @@ body {
     color: #333;
     background-color: #fff;
     font-family: Georgia, serif;
-    max-width: 70ch;
+    max-width: 80ch;
     margin: auto;
     box-shadow: -1px 0 10px grey, 1px 0 10px grey, 0 1px 10px grey;
     min-height: 100vh;
