@@ -63,3 +63,28 @@ footer#main-footer {
     padding: 0 1ch;
     height: 100%;
 }
+
+.portfolio-panel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 250px;
+}
+
+.portfolio-panel h3 {
+    text-align: center;
+}
+
+.portfolio-scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-scroll button {
+    height: 100%;
+}
+
+.portfolio-content {
+    flex-grow: 1;
+}

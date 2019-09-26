@@ -1,0 +1,20 @@
+{
+  "name": "avandolder.github.io",
+  "version": "1.0.0",
+  "description": "The personal site of Adam Vandolder. (Yes, the name is a pun. It was the best I could come up with.)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avandolder/avandolder.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avandolder/avandolder.github.io/issues"
+  },
+  "homepage": "https://github.com/avandolder/avandolder.github.io#readme"
+}
